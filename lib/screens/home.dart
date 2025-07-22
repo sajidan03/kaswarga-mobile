@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Aplikasi Flutter'),
+        title: const Text('Nvidia mobile'),
       ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: NavigationBar(
