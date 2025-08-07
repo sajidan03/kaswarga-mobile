@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:ppb_modul_1/screens/content/Beranda.dart';
 import 'content/Akun.dart';
 import 'content/Payment.dart';
 
@@ -13,13 +14,17 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = const [
-  ];
+    Beranda(),
+    Beranda(),
+    Payment(),
+    Akun(),
+    ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Nvidia mobile'),
+        title: const Text('Kaswarga'),
       ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: NavigationBar(
