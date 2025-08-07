@@ -14,18 +14,22 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = const [
-    Beranda(),
+    Center(
+      child: Beranda(),
+    ),
     Beranda(),
     Payment(),
-    Akun(),
+    Center(
+      child: ProfilePage(),
+    ),
     ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Kaswarga'),
-      ),
+      // appBar: AppBar(
+      //   title: Text('Kaswarga'),
+      // ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: NavigationBar(
         animationDuration: const Duration(milliseconds: 500),
