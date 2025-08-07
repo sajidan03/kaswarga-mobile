@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'content/Akun.dart';
+import 'content/Payment.dart';
 
 class HomePage extends StatefulWidget {
   const HomePage({super.key});
@@ -11,10 +13,6 @@ class _HomePageState extends State<HomePage> {
   int _selectedIndex = 0;
 
   final List<Widget> _pages = const [
-    Center(child: Text('Ini halaman Beranda')),
-    Center(child: Text('Ini halaman Bookmark')),
-    Center(child: Text('Ini halaman Cart')),
-    Center(child: Text('Ini halaman Profile')),
   ];
 
   @override
