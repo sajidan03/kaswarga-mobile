@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:ppb_modul_1/screens/content/Beranda.dart';
+import 'package:ppb_modul_1/screens/content/profile.dart';
 import 'content/Akun.dart';
 import 'content/Payment.dart';
 
@@ -17,7 +18,7 @@ class _HomePageState extends State<HomePage> {
     Beranda(),
     Beranda(),
     Payment(),
-    ProfilePage(),
+    Profile(),
     ];
 
   @override
