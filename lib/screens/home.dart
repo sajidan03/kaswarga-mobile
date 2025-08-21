@@ -27,9 +27,6 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      // appBar: AppBar(
-      //   title: Text('Kaswarga'),
-      // ),
       body: _pages[_selectedIndex],
       bottomNavigationBar: NavigationBar(
         animationDuration: const Duration(milliseconds: 500),
@@ -48,12 +45,12 @@ class _HomePageState extends State<HomePage> {
           NavigationDestination(
             icon: Icon(Icons.bookmark_border_outlined),
             selectedIcon: Icon(Icons.bookmark_rounded),
-            label: 'Bookmarks',
+            label: 'History',
           ),
           NavigationDestination(
             icon: Icon(Icons.shopping_bag_outlined),
             selectedIcon: Icon(Icons.shopping_bag),
-            label: 'Cart',
+            label: 'Payments',
           ),
           NavigationDestination(
             icon: Icon(Icons.person_outline_rounded),

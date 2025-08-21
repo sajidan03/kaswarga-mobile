@@ -7,7 +7,7 @@ class Payment extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Center(
-        child: Text('Bubunn'),
+        child: Text('Payment'),
       ),
     );
   }
